@@ -443,6 +443,19 @@ implements SensorEventListener {
                           Syfit = vyfit * dTS;
                           vzfit = (float) (((zaf + pzaf) / 2.0) * dTS);
                           Szfit = vzfit * dTS;
+
+                          //pkx=pk-1+vk-1*dt выражение (5) сразу по фильтрованным значениям
+                        float Sx_temp = Sx;
+                        float Sy_temp = Sy;
+                        float Sz_temp = Sz;
+
+//
+
+
+
+
+
+
                     }
                 }
             }
